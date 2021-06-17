@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Template</title>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Template</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
-  <body>
+</head>
+<body>
+  <main>
     <header>
       <img src="images/logo.svg" alt="logo-image">
-    {logo}
-    <nav>
-      <ul>
-    <h1>The Solar System</h1>
+      <p class="visually-hidden">{logo}</p>
+      <nav>
+        <h1>The Solar System</h1>
+        <ul>
+          <li><a href="#">[Stars]</a></li>
+          <li><a href="#">[Terrestrial planets]</a></li>
+          <li><a href="#">[Gas giants]</a></li>
+          <li><a href="#">[Dwarf planets]</a></li>
+          <li><a href="#">[Asteroids]</a></li>
+          <li><a href="#">[Comets]</a></li>
+        </ul>
+      </nav>
 
-    <li>[Stars]</li>
-    <li>[Terrestrial planets]</li>
-    <li>[Gas giants]</li>
-    <li>[Dwarf planets]</li>
-    <li>[Asteroids]</li>
-    <li>[Comets]</li>
-    </ul>
-    </nav>
+      <p class="visually-hidden">{banner}</p>
+      <figure>
+        <img src="images/banner.svg" alt="banner-image">
 
-    ---
+        <figcaption>The Solar System—our home in the stars</figcaption>
+      </figure>
 
-    {banner}
-    <img src="images/banner.svg" alt="banner-image">
-
-    <h2>The Solar System—our home in the stars</h2>
-
-    ---
-
-    <h2>The Solar System is the gravitationally bound system comprising the Sun and the planetary system that orbits it.</h2>
+      <p>The Solar System is the gravitationally bound system comprising the Sun and the planetary system that orbits it.</p>
     </header>
-  </body>
+  </main>
+</body>
 </html>
